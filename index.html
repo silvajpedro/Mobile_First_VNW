@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="firstInfo">
+                <img onclick="Hamburguer()" src="./hamburger.png" alt="">
+                <p><i>flavo</i></p>
+                <nav class="menuHamburguer">
+                    <ul>
+                        <li>Inicio</li>
+                        <li>Ofertas</li>
+                        <li>Produtos</li>
+                    </ul>
+                </nav>
+                <img src="./sacola.png" alt="">
+            </div>
+        </section>
+        <span>
+            <p class="quantity">0</p>
+        </span>
+        <img class="firstImg" src="./cosiness.png" alt="">
+        <img class="secondImg" src="./intensity.png" alt="">
+        <div class="iconBox">
+            <img onclick="secondChange()" class="firstIcon" src="./laranja - Copia.png" alt="Seta troca de produto">
+            <img onclick="troca()" class="secondIcon" src="./laranja.png" alt="Seta troca de produto">
+        </div>
+        <section class="secondSec">
+            <div class="firstSecDiv">
+                <h2>COSINESS</h2>
+                <p class="price">15$</p>
+            </div>
+            <h3>WHAT´S INSIDE</h3>
+            <p class="firstSecP">Chili, oregano, safran, paprika</p>
+            <h3>WHY WE LOVE IT</h3>
+            <p class="sectionText">
+                This one will add a little savoury flavour
+                to any food and turn any meal to a culinary masterpiece.
+            </p>
+            <div class="secondSecDiv">
+                <input type="radio" name="choose" id="bag" checked>
+                <label for="bag">BAG</label>
+                <p>(75g)</p>
+
+                <input type="radio" name="choose" id="jar" />
+                <label for="jar">JAR</label>
+                <p>(150g)</p>
+
+            </div>
+        </section>
+        <div class="plusAndLess">
+            <p onclick="less()" class="less">-</p>
+            <p class="addOne">1</p>
+            <p onclick="add()" class="plus">+</p>
+        </div>
+        <div onclick="addBag()" class="addOnCar">
+            <p>ADD TO CART</p>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
