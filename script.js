@@ -1,5 +1,5 @@
-let firstImg = document.querySelector('.firstImg')
-let secondImg = document.querySelector('.secondImg')
+let firstImg = document.querySelector('.firstClassImg')
+let secondImg = document.querySelector('.secondClassImg')
 let firstIcon = document.querySelector('.firstIcon')
 let secondIcon = document.querySelector('.secondIcon')
 let h2 = document.getElementsByTagName('h2')[0]
