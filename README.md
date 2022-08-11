@@ -3,7 +3,7 @@
 
 # Vai Na Web Desafio Mobile First
 
-Desafio de Front-end proposto pelo Vai Na Web
+Desafio de Front-end proposto pelo Vai Na Web feito em HTML/CSS/JavaScript
 
 Para visualiza-lo da melhor forma e necessário baixar a extensão https://chrome.google.com/webstore/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk4
 
